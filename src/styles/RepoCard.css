@@ -1,0 +1,53 @@
+.card-title {
+  font-weight: bold;
+}
+
+.card-wrapper {
+  display: inline-block;
+	width: 90%;
+  height: 350px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+  background-color: #DCDCDC !important;
+  word-wrap: break-word;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-url{
+  height:30px;
+}
+
+
+.bg-dark{
+  background-color: #323232 !important;
+}
+
+.kind {
+  padding: 2px 4px;
+  font-weight: 300;
+  font-size: 0.8em;
+  border-radius: 2px;
+}
+
+.button-round{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.button-round:hover{
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 756px) {
+  .card-wrapper {
+    display:block;
+  }
+}

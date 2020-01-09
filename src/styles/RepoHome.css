@@ -1,0 +1,66 @@
+.profile-card{
+  display: block;
+  width: 90%;
+  height: 300px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+  background-color: #EEEEEE !important;
+  word-wrap: break-word;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.repository-image{
+  position: absolute;
+  text-align: left;
+  margin:3% !important;
+  box-sizing: border-box;
+}
+
+.profile-content{
+  padding:70px 0;
+  height: 100%;
+  text-align: center;
+  margin: auto !important;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 756px) {
+  .profile-card{
+    width: 90%;
+    height: auto;
+    margin:auto !important;
+    background-color: #EEEEEE !important;
+    word-wrap: break-word;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .repository-image{
+    position: relative;
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box;
+  }
+
+  .profile-content{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: auto !important;
+    padding: 20px 10px;
+  }
+}
