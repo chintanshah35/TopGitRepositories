@@ -2,7 +2,7 @@
 
 This is a small responsive project developed using React and Github API. Top 100 Repositories are fetched from Github API based on star ratings and displayed with details. Also commits in past 24 hours for each repository are listed in Repository Home.
 
-## Steps to Start
+### Steps to Start ####
 
 Clone git repository https://github.com/chintanshah35/TopGitRepositories.git
 
@@ -13,3 +13,13 @@ Run npm install
 Run npm start
 
 and go to `localhost:3000`
+
+### Screenshots ####
+
+![](screenshots/top-repo-desktop1.png)
+
+![](screenshots/top-repo-desktop2.png)
+
+![](screenshots/top-repo-mobile1.png)
+
+![](screenshots/top-repo-mobile2.png)
